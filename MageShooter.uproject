@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.26",
+	"EngineAssociation": "{04E39B7C-4984-BC89-30D1-EE8FD48FF7D9}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -11,6 +11,27 @@
 			"AdditionalDependencies": [
 				"Engine"
 			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystemGooglePlay",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Android"
+			]
+		},
+		{
+			"Name": "OnlineSubsystemIOS",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"IOS",
+				"TVOS"
+			]
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
 		}
 	]
 }
