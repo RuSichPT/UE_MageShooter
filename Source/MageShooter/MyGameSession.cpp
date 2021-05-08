@@ -25,7 +25,7 @@ void AMyGameSession::RegisterServer()
 	Settings.bAllowJoinInProgress = true; // подключение в процессе самого сервера
 	Settings.bShouldAdvertise = true; // наш сервер виден через систему онлайн, чтобы виден был в поиске
 	Settings.bUsesPresence = true;
-	Settings.NumPublicConnections = 16;
+	Settings.NumPublicConnections = 32;
 
 	Session->CreateSession(0, GameSessionName, Settings);
 	UE_LOG(LogTemp, Log, TEXT("--------------------------Session created--------------------------"))

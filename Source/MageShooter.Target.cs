@@ -10,6 +10,6 @@ public class MageShooterTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
-		ExtraModuleNames.AddRange( new string[] { "MageShooter" } );
+		ExtraModuleNames.AddRange( new string[] { "MageShooter" } ); 
 	}
 }
